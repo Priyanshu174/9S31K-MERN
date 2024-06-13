@@ -1,0 +1,21 @@
+.horizontal-scroller {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+  }
+  
+  
+  .h-images {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px; 
+    padding-bottom: 10px; /* Optional: adds padding at the bottom for better aesthetics */
+  }
+  
+  .h-images img {
+    padding-top: 20px;
+       
+  }
+  
